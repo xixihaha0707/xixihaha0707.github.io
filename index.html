@@ -1,227 +1,274 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>病毒和传染病</title>
-<style>
-html,body{
-	height:100%;
-}
-body{
-	padding:0;
-	margin:0;
-	font-family:"微软雅黑";
-}
-#top{
-	position:relative;
-	width:100%;
-	height:100%;
-	background-size:cover;
-	background-position:center center;
-}
-#list{
-	position:absolute;
-	right:20px;
-	top:10px;
-	color:#FFF;
-	font-size:14px;
-}
-#list span{
-	cursor:pointer;
-	margin:0 5px;
-}
-.spring{
-	background-image:url(images/111.png);
-}
-.summer{
-	background-image:url(images/summer.jpg);
-}
-.autumn{
-	background-image:url(images/autumn.jpg);
-}
-.winter{
-	background-image:url(images/winter.jpg);
-}
-#top h1{
-	position:absolute;
-	bottom:40%;
-	left:50%;
-	margin-left:-200px;
-	width:400px;
-	text-align:center;
-	color:#FFF;
-}
-#enter{
-	width:160px;
-	position:absolute;
-	bottom:25%;
-	left:50%;
-	margin-left:-81px;
-	font-size:32px;
-	font-weight:bold;
-	border:1px solid #FFF;
-	text-align:center;
-	padding:10px;
-	box-sizing:border-box;
-	cursor:pointer;
-	color:#FFF;
-	
-}
-#top a:link,#top a:visited,#top a:hover{
-	color:#FFF;
-	text-decoration:none;
-}
-#containter{
-	width:1000px;
-	margin:50px auto;
-}
-p{
-	line-height:200%;
-}
-	
-#sidenav{
-	position:fixed;
-	right:20px;
-	bottom:40%;
-	width:100px;
-	z-index:-1;
-}
-#sidenav ul{
-	list-style:none;
-}
-#sidenav li{
-	border-left:5px solid #090;
-	margin:20px 0;
-	padding-left:5px;
-	cursor:pointer;
-}
-#sidenav li:hover{
-	border-left:5px solid #F90;
-}
-#sidenav a:link,#sidenav a:visited,#sidenav a:hover{
-	color:#333;
-	text-decoration:none;
-}
-</style>
-<script>
-
-</script>
+<title>防疫战</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="#css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/templatemo_style.css" rel="stylesheet" type="text/css">
 </head>
-
 <body>
-<div id="top" class="spring">
-<div id="list">
-	<span onClick="changeBg('spring')">1</span> |
-    <span onClick="changeBg('summer')">2</span> |
-    <span onClick="changeBg('autumn')">3</span> |
-    <span onClick="changeBg('winter')">4</span> 
+<nav id="responsive-menu">
+  <ul class="menu-holder">
+    <li class="active"><a href="#home"><i class="fa "></i>导语</a></li>
+    <li><a href="#about"><i class="fa "></i>恐怖的死亡</a></li>
+    <li><a href="#services"><i class="fa "></i>顽强的抵抗</a></li>
+    <li><a href="#products"><i class="fa"></i>科学的利剑</a></li>
+    <li><a href="#contact"><i class="fa"></i>结语</a></li>
+  </ul>
+</nav>
+<div class="templatemo-site-header">
+  <div class="container">
+    <div class="row templatemo-position-relative">
+      <nav class="hidden-xs text-uppercase templatemo-nav">
+        <ul class="menu-holder">
+          <li class="active"><a href="#home">导语</a></li>
+          <li><a href="#about">恐怖的死亡</a></li>
+          <li><a href="#services">顽强的抵抗</a></li>
+          <li><a href="#products">科学的利剑</a></li>
+          <li><a href="#contact">结语</a></li>
+        </ul>
+      </nav>
+      <h1 class="templatemo-site-name"> <span class="templatemo-brown">直面传染病</span> <span class="templatemo-gold"><strong>防疫战</strong></span> </h1>
+      <div class="text-right visible-xs"> <a href="#" id="mobile_menu"><span class="fa fa-bars"></span></a> </div>
+    </div>
+  </div>
 </div>
-<h1>传染病和疫苗</h1>
-<a href="#one" id="enter" class="smooth" >ENTER</a >
-</div>
-<div id="containter">
-<a id="one"></a>
-<h2>导语</h2>
-<p>从古至今，无论东方西方，疾病都与人类的历史密切相关。而在这其中，传染病对人类社会的影响无疑是最为显著的，甚至多次左右了历史的前进方向。尽管体积相差甚远，物种间隔巨大，人类与传染病病原体却在漫长的生物进化和演变中以一种生物对峙另一种生物的形式，打响了精细且持久的“防疫战”。</p>
-<a id="second"></a>
-<h2>人类历史上的传染病</h2>
-<p>在中国人的字典里，汉字“疫”始见于甲骨文，在《说文》里的释义为“民皆病”，“疾疫”便指的是现代意义上的传染病。现存的甲骨文中多次出现“疾疫”，有卜问疾疫是否会蔓延的，也有卜问商王武丁是否会染上疾疫的卜辞。</p>
-<p><strong>三千多年前</strong>的商王在面对传染病爆发时留下了求神问卜的记录，这种将传染病和“神”相关联的认知并非商王朝所独有。</p>
-<p>古巴比伦国留下了目前已知世界最古老的英雄史诗《吉尔伽美什史诗》，这部成书于<strong>公元前2700年至公元前2500年</strong>的“古代非虚构写作”中提到了“神的天谴”。后世学者考证，认为其指的正是传染病。</p>
-<p>疫病的传播常常又急又烈。倘若将人类历史的发展视作一叶小舟，传染病则扮演着海面卷起的波浪——有时推动扁舟前行，亦可能以滔天之势裹挟倾倒而下。</p>
-<p><strong>公元前429年</strong>，一位叫修昔底德的雅典学者记录,正准备扫平诸敌的雅典城中爆发了瘟疫。患者发高烧，喉舌充血，散发出异常恶臭的气味，强烈的咳嗽引发胸部疼痛，任何口服外敷的药物都无济于事。这场大瘟疫在一年多的时间里使得雅典人口骤减近二分之一，对当时的社会造成了重大打击，更打断了雅典王国的称霸之路。</p>
-<p>生活在<strong>公元前145-前87年</strong>的司马迁曾前往长江以南地区，发现这里地势低下、气候潮湿，时人多发疾病，寿命不长。[1]这种发现符合现代医学的判断：湿热的环境容易滋生出更多的寄生物，也更容易产生传染病。从北方到南方的旅人也难以适应环境，常常染病。或许正因如此，当发源于北方的中华民族已在中原大地发展起蓬勃的封建王朝，却迟迟没有挥师南拓。</p>
-<p>由鼠疫杆菌引发的烈性传染病曾数次大流行，对人类社会造成了多次几近毁灭性的打击。<strong>公元六世纪</strong>，鼠疫大爆发持续了近六十年，流行高峰期间每天死亡一万人，最终造成了1亿生命的消逝。十三世纪开始，鼠疫在欧洲大陆卷土重来，欧洲各地共有2500多万人丧生，占当时欧洲30%的人口。一旦感染，患者皮肤出现大块黑斑，致死率极高。这种传染病也就此得名“黑死病”。十五到十八世纪，黑死病再次爆发。</p>
-	<p>传染病在历史舞台上频频出场，病原体对人类选择并不局囿于地域、种族之分，总是悄无声息地出现，对人类发出进攻，一番肆虐之后又离去，等待他日卷土重来。动物的迁徙、转移和植物的繁衍使得寄生宿主的微生物可以在不同的地域繁衍演化；而在当人类社会发展到可以完成越岭跨海的长途旅行之后，疫病的传播也随之驶上了加速道。</p>
-	<p><strong>地理大发现时期</strong>，西班牙人率先横渡大西洋抵达美洲大陆，开始和当地人进行贸易交换，后世将其称为“哥伦布大交换”。当贸易市场逐渐沦为殖民战场，西班牙人身上的天花病毒在对这种病毒毫无免疫力的阿兹特克人群中飞速扩散。<strong>1503年</strong>西班牙入侵牙买加时，岛上居民约30万，到<strong>十六世纪中叶（1541年)</strong>，据估计西班牙殖民地上的印第安人被消灭了1500万人，1548年时则几乎绝迹。而在哥伦比亚船队返回欧洲后，从南美土著那里传染而来的梅毒病菌席卷了欧罗巴大陆。十六世纪末，由于美洲土著大量死于瘟疫，白种人在湿热的美洲水土不服，缺乏劳动力的欧洲人开始从非洲运送黑种人到美洲为其劳动，黑奴贩卖一时猖獗。</p>
-	<p><strong>19世纪初叶起</strong>，霍乱在世界各地肆虐，这种起源于印度的感染症由病菌引起、通过不洁饮食传染，会引起患者剧烈的腹泻、脱水甚至死亡。经由通达的海陆交通，霍乱很快在全球传播流行。据历史记载，霍乱一共有七次大流行。</p>
-	<p>进化到食物链顶端的人类，时常会产生自己是万物之主的错觉。但当脆弱的生命面临危险，整个种群的生存面对威胁，人类对同胞无数的野心或宏图也只能黯然退场。</p>
-	<p><strong>清朝时</strong>，顺治帝和同治帝都因天花过世，这种古老的传染病影响了帝位继承人的选择。顺治朝选立太子时，脸上有麻子的三皇子玄烨因童年染过天花，不会再染病早死，胜过了顺治更为喜爱的皇次子福全。玄烨8岁那年登基，以61年的在位时长成为了中国历史上在位最久的皇帝——康熙皇帝。</p>
-	<p>时间拉到第一次世界大战，西班牙流感在一战期间传遍全球，2.7%的地球人口因之丧命。军营之中人员密集，条件简陋，更是无法阻止流感的迅速传播。由于大多数死者都是军人，元气大伤的主战国只能在<strong>1918年</strong>提前结束了世界大战。</p>
-	<p><strong>“疾病，特别是其中的传染病，乃是人类历史的基本参数和决定因素之一。 ”</strong></p>
-<a id="three"></a>
-	<h2>和传染病的对峙</h2>
-	<p>对于人类来说，传染病的产生无法预料，只能努力与之抵抗。在漫无边际的探索之中，许多有用的经验伴随着意外收获逐渐积累，形成了今日的局面。</p>
-	<p>求问卜辞的商王代表着中外古人一种共通的认知：<strong>疾疫是非自然力量导致的</strong>。因此，殷商朝在传染病爆发时举行大型巫术祭祀，在周礼中也专门设置了官职方相氏——方相氏身着熊皮，手执戈盾，跳大神驱赶「疫癘之鬼」。北美的印第安人和北亚的萨满教中也有类似的习俗，由蒙熊皮巫师来赶鬼治病。这种<strong>非理性的“御疫”、“宁疾”方法</strong>一时十分盛行。</p>
-	<p>但前人并非没有总结出真正行之有效的抗疫经验。甲骨文所言“亡入，疾”、“有疾病者，分而治之”、 “舍空邸第”都是对隔离措施的记录，也就是说，在几千年前，人类就已经有意识地进行<strong>隔离病人、防控疫情进一步扩散</strong>的措施。</p>
-	<p>断绝雅典称霸世界之路的大瘟疫由御医希波拉底的观察终结：他发现，每天都需要和火打交道的铁匠们不会患病，于是建议全城各处燃起篝火，最终以<strong>高温消毒</strong>战胜了瘟疫。</p>
-	<p>面对传染病，人类需要作出一个又一个选择，也因之产生了许多跳出当时局限的社会思潮与奇思妙想。人类社会发展到今天，与传染病搏斗的历史并非只留下了痛苦的回忆。</p>
-	<p>13世纪的欧洲，对鼠疫主要的治病方法是祷告，惊慌的市民纷纷前往天主教堂向上帝求救，神父群体成为了被传染的重灾区，神职人员或是患病，或是选择跳槽，“神”的威望大幅降低。但丁、薄伽丘等大批知识分子纷纷写书抨击神权，呼喊人权，引发了一场意义非凡的思想解放运动：“文艺复兴”。</p>
-	<p>也是在鼠疫期间，一系列没有科学依据的传染病疗法被病急乱投医的民众尝试：<strong>放血、鞭打乃至不洗澡</strong>。在长达两百年间，有相当数量的欧洲民众相信，洗澡的热气会让皮肤毛孔张开，使得邪气入侵身体。据记载，路易十四一辈子只洗过三次澡，浓重的体味可以飘散到十步之外。为了掩盖身上的气味，后世的时尚产品——香水——就此在法国诞生。</p>
-	<p>十五世纪到十八世纪，再度肆虐的鼠疫至少收割了欧洲5000万人口。因为劳动力成本升高，资本家们迫切的寻求可以代替人力的劳动力，大规模的机器研发带动了第一次工业革命。</p>
-	<p>十九世纪初叶起，从印度而来的霍乱通过殖民者的港口和航线传播到了世界各地。英国政府为了应对大规模爆发的霍乱而建立了大规模的城市供水网络，道尔顿也发明了世界上第一台<strong>净水器</strong>，其他国家相继学习经验。</p>
-	<p>20世纪初，霍乱在中国反复爆发，促使历时15年的新生活运动在1934年开启。中国国民公共卫生史上的一个里程碑式健康习惯出现，至今影响深远：不喝生水。在此前，热水只是古代文人雅士泡茶时的高雅仪式；在新生活运动后，<strong>“多喝热水”</strong>走进了广大国民的生活。</p>
-	<p>今时今日，当我们谈起传染病，或许会想到马尔克斯笔下那艘挂着表明霍乱的黄旗、载着暮年恋人准备“一生一世”在河道上来回的船只（《霍乱时期的爱情》）。从时尚产品、文学作品到我们习以为常的思想思潮、现代生活方式……在人类和传染病世代不停的“战争”中，五花八门的“战利品”也走进了人类的社会生活。</p>
-	<a id="four"></a>
-	<h2>科学防治传染病</h2>
-	<p>19世纪后半期，细菌等病原性微生物的依次发现发展为细菌学说，也使得传染病的原因和传染机制得到了确认。</p>
- 
-<p>对所有的生物来说，疾病和寄生物几乎无所不在。当寄生物从某个有机体身上成功地搜寻到食物时，对宿主而言就是一场恶性感染或疾病。对人类来说，病毒、细菌、真菌……种种微生物都可能成为传染病的引发者。</p>
- 
-<p>从生态学的观点看，我们似乎仍然可以说，许多最为致命的病原体其实还没有适应它们作为寄生物的角色。在某些情况下，它们依然处在与人类宿主的生物调适进程的早期阶段。但哪怕引发疟疾的疟原虫可能是人类最古老的寄生物，也已经与人类宿主调适了许多世代，至今仍给人类宿主带来严重的四肢虚弱发热病。[2]</p>
- 
-<p>说到传染病，就不得不提到“免疫力”。所谓的免疫到底是什么过程呢？</p>
- 
-<p>人类的免疫系统可以大致分为三道防线：有皮肤黏膜等组成的<strong>第一道防线</strong>是人体最直接接触外界的部分，拥有非常强大的阻挡病原体进入机体的能力。皮肤破溃、体液接触时，HIV病毒就会侵入人体。<strong>第二道防线</strong>是由吞噬细胞等非特异性免疫细胞组成的，这些免疫细胞并不能特异性的识别入侵集体的外来物，但可以识别异物和本体的区别，然后包裹吞噬异物。释放自身细胞内的消化酶，希望能够溶解异物。第二道防线可以消灭我们平时接触的绝大多数病原体，因此我们可以在充满了细菌真菌病毒的日常环境中生活，而不是每天躺在病床上。前两道防线被称为免疫系统的“非特异性免疫”，当前两道防线失守时，<storng>第三道防线</storng>“特异性免疫”便派上了用场。入侵部位不同，参与特异性免疫的细胞和免疫因子也不同。入侵体液的病原体还没躲进细胞里，就要由“认识”它的免疫细胞识别它并且针对性地制造出能够消灭它的工具——<strong>【抗体】</strong>，特异地消灭它；但一旦躲进细胞里，免疫系统就要先想办法让它出来，就需要另一种免疫细胞去告知这个被病原体入侵了的细胞，为了机体的健康，自我裂解，这样病原体就会暴露在体液里，再生产相应抗体结合病原体并消灭病原体。</p>
- 
-<p>伴随着近代西方医学的发展，通过杀灭病原性微生物进行治疗以及预防传染的预防医学也发展了起来。人类对传染病等疾病的认识与治疗方法产生了深刻的变化，在此过程中，通过杀灭病原性微生物中间宿主来破坏传染机制的预防医疗是传染病与人类关系史上重大的变革。</p>
- 
-<p>等感染了传染病再治疗似乎显得太过被动，科学家反向思考：既然多数传染病在痊愈后不会复发，可不可以让人类体内先行产生抗体？</p>
- 
-<p>疫苗的英文单词vaccine词根来自拉丁语vaccinus（母牛的），最早是特指用来预防天花的牛痘苗。在人类驯化了植物、牲畜以后，农业社会为主的生活方式使得寄居在动物身上的天花病毒接触到人类，引发了烈性传染病——天花。感染者会身体不适并全身出疹，疫情爆发后的死亡率极高。唐代名医孙思邈用取自天花口疮中的脓液敷着在皮肤上来预防，明代后则盛行人痘接种法。1796年，英国乡村医生爱德华·琴纳发现了一种危险性更小的接种预防方法：接种牛染天花病毒后出的痘。他成功地给一个8岁的男孩注射了牛痘。牛痘病毒与天花病毒的抗原绝大部分相同，而且对人体不会致病。后来，医学家用牛痘病毒制成了天花疫苗，并在1976年全球推行天花疫苗接种。</p>
- 
-<p>如今，疫苗vaaccine在牛津词典中的释义为（a substance that is put into the blood and that protects the body from a disease）。是指用各类病原微生物制作的用于预防接种的生物制品，其中用细菌或螺旋体制作的疫苗亦称为菌苗。</p>
- 
-<p>与大多数药物的受益仅限于服用该药物的个人不同，预防性疫苗具有产生深远影响的潜力，包括卫生服务利用，整体健康和福祉，认知能力发展以及最终的经济生产力。</p>
- 
-<p>从种牛痘来抑制天花及通过下水系统来抑制霍乱等对急性传染病的控制，到通过链霉素等抗生素来控制结核等慢性传染病，再到对生活习惯病的控制。人类通过预防医学以及对环境的整治，成功达到了抑制各种传染病的目的。在改善营养条件的同时，人类平均寿命急速延长，人类也在20世纪经历了前所未有的爆发性人口增长。</p>
- 	<a id="five"></a>
-	<h2>现代传染病</h2>
-<p>在人类历史上多次出场的古老传染病似乎逐渐被找到了应对之法，但绝大多数没有完全离场；在现代的环境和社会结构下，一些新的传染病又站上了防疫之战的彼端。</p>
- 
-<p>依据传播途径的不同，人类传染病可分为四类：消化道传染病、呼吸道传染病、血液传染病、体表传染病。</p>
- 
-<p>（此处附绘画）</p>
- 
-<p>由国家统一进行免疫规划已经成为当代传染病防治的重要组成部分。《中华人民共和国传染病防治法》规定了:</p>
-<p>我国的国家免疫规划通过无偿接种11种疫苗，预防乙型肝炎、结核病、脊髓灰质炎、百日咳、白喉、破伤风、麻疹、流行性腮腺炎、风疹、流行性乙型脑炎、流行性脑脊髓膜炎、甲型肝炎等12种传染病。疫苗按照免疫程序，所有达到应接种月(年)龄的适龄儿童，均为接种对象。</p>
- 
-<p>在我国，预防接种的疫苗（vaccine）分为两类:</p>
-<p><strong>第一类疫苗</strong>，是指政府免费向公民提供，公民应当依照政府的规定受种的疫苗，包括国家免疫规划确定的疫苗，省、自治区、直辖市人民政府在执行国家免疫规划时增加的疫苗，以及县级以上人民政府或者其卫生主管部门组织的应急接种或者群体性预防接种所使用的疫苗；
-<p><strong>第二类疫苗</strong>，是指由公民自费并且自愿受种的其他疫苗。</p>
- 
-<p>为了帮助各国兑现到2030年“结束流行病”的承诺，世界卫生大会通过了艾滋病、结核病和疟疾全球战略。2016年，世界首次通过了全球肝炎战略并确定了第一个全球肝炎目标。自2012年以来，全球一直采用世界卫生组织的路线图来指导防治累及逾十亿人的被忽视的热带病的努力。</p>
-<p> 
-这些战略得到一套以证据为基础的指导文件的支持，以帮助各国设计和实施其自身计划。</p>
-与此同时，世卫组织正在帮助各国向全民健康覆盖靠拢，确保所有人可以获得他们所需要的医疗服务，而不会因此陷入贫困。</p>
-<p> 
-艾滋病、埃博拉、SARS、MERS、流感……进入21世纪，烈性传染病仍然可能在世界各地爆发。如今，新冠病毒引发的肺炎疫情与每一个地球人息息相关。人类的防疫之战再次走到重要节点。有学者认为，新冠肺炎将改变社会格局，改变未来世界的走向。无论这种看法是否会被验证，我们可以从历史中总结：人类社会的发展史与传染病确实有不可分割的紧密联系。</p>
+<section id="home" class="templatemo-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 templatemo-position-relative">
+        <div class="templatemo-flex-center templatemo-black-bg text-center">
+          <div class="templatemo-home-image-container"> <img src="images/toutu.png" alt="Home" class="templatemo-home-image">
+            <div class="templatemo-image-overlay"> <span class="fa fa-user-nurse templatemo-search-icon"></span>
+              <p class="text-uppercase text-center">“假如我们能像了解过去那样，努力地预知未来，那么对传染病的影响就绝不能置之不理。”</p>
+              <p class="text-uppercase text-center">“技能、知识和组织都会改变，但人类面对疫病的脆弱，则是不可改变的。”</p>
+              <p class="text-uppercase templatemo-gold">——威廉·麦克尼尔《瘟疫与人》</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6">
+        <div class="templatemo-content-box templatemo-second-box">
+          <h2 class="templatemo-brown"><strong>导语</strong></h2>
+          <h3 class="templatemo-gold">Introduction</h3>
+          <p class="margin-top-30">从古至今，无论东方西方，传染病都与人类社会的发展密不可分。战争、经济、宗教、文化，因为一次又一次的传染病而发生改变，不断重塑着如今我们熟悉的世界。</p>
+          <p class="margin-top-30"> “体积渺小，隐身遁形”的传染病病原体在人类历史频频出场，人类也在漫长的生物进化和演变中，逐渐探索出与它们相互竞争的方式。为了人类社会的持续发展，一种生物与另一种生物在生存权力上的动态平衡，无时无刻不在上演。</p>
+          <a href="#" class="btn text-uppercase templatemo-btn templatemo-info-btn">试试点击图片</a> </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="about" class="templatemo-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6">
+        <div class="templatemo-content-box text-right">
+          <h2 class="templatemo-brown"> <span class="templatemo-section-title">传染病的历史危害影响</span><br>
+            <span class="templatemo-gold"><strong>恐怖的死亡</strong></span> </h2>
+          <p class="margin-top-30"><em>“疾病，特别是其中的传染病，<br>
+            <span>乃是人类历史的基本参数和决定因素之一。“</span></em> </p>
+          <p>——《瘟疫与人》</p>
+          <br>
+          <p class="text-justify">传染病在历史舞台上频频出场，病原体对人类的选择并不局囿于地域、种族之分，总是悄无声息地出现，对人类发出进攻，一番肆虐之后又离去，等待他日卷土重来。</p>
+          <p class="text-justify">动物的迁徙、转移和植物的繁衍使得寄生宿主的微生物可以在不同的地域繁衍演化；而在当人类社会发展到可以完成越岭跨海的长途旅行之后，疫病的传播也随之驶上了加速道。</p>
+          <p class="text-justify">进化到食物链顶端的人类，时常会产生自己是万物之主的错觉。但当脆弱的生命面临危险，整个种群的生存面对威胁，人类对同胞无数的野心或宏图也只能黯然退场。</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6">
+        <div class="templatemo-flex-center templatemo-black-bg">
+          <div class="templatemo-flex-center templatemo-brown-rectangle-bg">
+            <div class="jcarousel-wrapper templatemo-team">
+              <div class="jcarousel">
+                <ul>
+                  <li>
+                    <div class="text-center templatemo-team-member-container">
+                      <div class="templatemo-member-img-container"> <img src="images/team-img-frame.png" alt="Team img frame" class="templatemo-img-frame"> <img src="images/yadian.jpg" alt="Team Member 1" class="tm-team-member-img"> </div>
+                      <h3 class="tm-team-member-title templatemo-gold text-uppercase margin-top-15">瘟疫 plague</h3>
+                      <img src="images/underline.png" alt="Underline" class="margin-top-15 img-responsive center-block">
+                      <p class="margin-top-15 text-justify">公元前429年，一位叫修昔底德的雅典学者记录,正准备扫平诸敌的雅典城中爆发了瘟疫。患者发高烧，喉舌充血，散发出异常恶臭的气味，强烈的咳嗽引发胸部疼痛，任何口服外敷的药物都无济于事。这场大瘟疫在一年多的时间里使得雅典人口骤减近二分之一，对当时的社会造成了重大打击，更打断了雅典王国的称霸之路。</p>
+                      <p class="templatemo-brown text-uppercase">雅典Athens</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="text-center templatemo-team-member-container">
+                      <div class="templatemo-member-img-container"> <img src="images/team-img-frame.png" alt="Team img frame" class="templatemo-img-frame"> <img src="images/shuyi.jpg" alt="Team Member 2" class="img-circle tm-team-member-img"> </div>
+                      <h3 class="tm-team-member-title templatemo-gold text-uppercase margin-top-15">鼠疫BLACK DEATH</h3>
+                      <img src="images/underline.png" alt="Underline" class="margin-top-15">
+                      <p class="margin-top-15 text-justify">鼠疫曾数次大流行，对人类社会造成了多次几近毁灭性的打击。公元六世纪，鼠疫大爆发持续了近六十年，流行高峰期间每天死亡一万人。十三世纪开始，欧洲各地共有2500多万人因之丧生，占当时欧洲30%的人口。一旦感染，患者皮肤出现大块黑斑，致死率极高。这种传染病也就此得名“黑死病”（Black Death）。十五到十八世纪，黑死病再次爆发。</p>
+                      <p class="templatemo-brown text-uppercase">欧洲 Europe</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="text-center templatemo-team-member-container">
+                      <div class="templatemo-member-img-container"> <img src="images/team-img-frame.png" alt="Team img frame" class="templatemo-img-frame"> <img src="images/tianhua.jpg" alt="Team Member 2" class="img-circle tm-team-member-img"> </div>
+                      <h3 class="tm-team-member-title templatemo-gold text-uppercase margin-top-15">天花 smallpox</h3>
+                      <img src="images/underline.png" alt="Underline" class="margin-top-15">
+                      <p class="margin-top-15 text-justify">地理大发现时期，西班牙人率先横渡大西洋抵达美洲大陆，开始和当地人进行贸易交换，后世将其称为“哥伦布大交换”。当贸易市场逐渐沦为殖民战场，西班牙人身上的天花病毒在对这种病毒毫无免疫力的阿兹特克人群中飞速扩散。1503年西班牙入侵牙买加时，岛上居民约30万，到十六世纪中叶（1541年），据估计西班牙殖民地上的印第安人被消灭了1500万人，1548年时则几乎绝迹。</p>
+                      <p class="templatemo-brown text-uppercase">美洲 America</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="text-center templatemo-team-member-container">
+                      <div class="templatemo-member-img-container"> <img src="images/team-img-frame.png" alt="Team img frame" class="templatemo-img-frame"> <img src="images/liugan.jpg" alt="Team Member 3" class="img-circle tm-team-member-img"> </div>
+                      <h3 class="tm-team-member-title templatemo-gold text-uppercase margin-top-15">西班牙流感 Spanish Flu</h3>
+                      <img src="images/underline.png" alt="Underline" class="margin-top-15">
+                      <p class="margin-top-15 text-justify">西班牙流感在一战期间传遍全球，2.7%的地球人口因之丧命。军营之中人员密集，条件简陋，更是无法阻止流感的迅速传播。由于大多数死者都是军人，元气大伤的主战国只能在1918年提前结束了世界大战。</p>
+                      <p class="templatemo-brown text-uppercase">全球 global</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <a href="#" class="jcarousel-control-prev inactive">&lsaquo;</a> <a href="#" class="jcarousel-control-next">&rsaquo;</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="services" class="templatemo-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6">
+        <div class="templatemo-flex-center templatemo-black-bg text-center">
+          <div class="templatemo-flex-center templatemo-brown-rectangle-bg">
+            <div class="templatemo-flex-item-ie-fix padding-30">
+              <h2 class="templatemo-gold">抵御传染病的探索</h2>
+              <div class="templatemo-service-container margin-top-15"> <img src="images/jiaguwen.png" alt="Plan 1" class="templatemo-service-image">
+                <div class="templatemo-service-content text-left">
+                  <h3 class="templatemo-service-title templatemo-brown">甲骨文</h3>
+                  <p class="templatemo-service-description text-justify">甲骨文所言“亡入，疾”、“有疾病者，分而治之”、 “舍空邸第”都是对隔离措施的记录。在几千年前，人类就已经有意识地进行隔离病人、防控疫情进一步扩散的措施。</p>
+                </div>
+              </div>
+              <div class="templatemo-service-container"> <img src="images/mengnalisha.png" alt="Plan 2" class="templatemo-service-image">
+                <div class="templatemo-service-content text-left">
+                  <h3 class="templatemo-service-title templatemo-brown">文艺复兴</h3>
+                  <p class="templatemo-service-description text-justify">13世纪的欧洲，对鼠疫主要的治病方法是祷告，惊慌的市民纷纷前往天主教堂向上帝求救，神父群体成为了被传染的重灾区，神职人员或是患病，或是选择跳槽，“神”的威望大幅降低。但丁、薄伽丘等大批知识分子纷纷写书抨击神权，呼喊人权，引发了一场意义非凡的思想解放运动：文艺复兴。</p>
+                </div>
+              </div>
+              <div class="templatemo-service-container"> <img src="images/reshuihu.png" alt="Plan 3" class="templatemo-service-image">
+                <div class="templatemo-service-content text-left">
+                  <h3 class="templatemo-service-title templatemo-brown">不喝生水</h3>
+                  <p class="templatemo-service-description text-justify">20世纪初，霍乱在中国反复爆发，促使历时15年的新生活运动在1934年开启。中国国民公共卫生史上的一个里程碑式健康习惯出现，至今影响深远：不喝生水。在此前，热水只是古代文人雅士泡茶时的高雅仪式；在新生活运动后，“多喝热水”走进了广大国民的生活。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6">
+        <div class="templatemo-content-box templatemo-second-box">
+          <h2 class="templatemo-brown"> <span class="templatemo-section-title">在探索中前进</span></h2>
+          <h2 class="templatemo-brown">&nbsp;</h2>
+          <h2 class="templatemo-brown"> <span class="templatemo-gold"><strong>顽强的抵抗</strong></span></h2>
+          <p class="margin-top-30 text-justify">疫病的传播常常又急又烈。倘若将人类历史的发展视作一叶小舟，传染病则扮演着海面卷起的波浪——有时以滔天之势裹挟倾倒而下，亦可能推动扁舟前行。</p>
+          <p class="margin-top-30 text-justify">对于人类来说，传染病的产生无法预料，只能努力与之抵抗。在漫无边际的探索之中，许多有用的经验伴随着意外收获逐渐积累，形成了现今的局面。面对传染病，人类需要作出一个又一个选择，也因之产生了许多跳出当时局限的社会思潮与奇思妙想。人类社会发展到今天，与传染病搏斗的历史并非只留下了痛苦的回忆。</p>
+          <p class="margin-top-30 text-justify">今时今日，当我们谈起传染病，或许会想到马尔克斯笔下那艘挂着表明霍乱的黄旗、载着暮年恋人准备“一生一世”在河道上来回的船只（《霍乱时期的爱情》）。从时尚产品、文学作品到我们习以为常的思想思潮、现代生活方式……在人类和传染病世代不停的“战争”中，五花八门的“战利品”也走进了人类的社会生活。&nbsp;</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="products" class="templatemo-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6">
+        <div class="templatemo-content-box text-right">
+          <h2 class="templatemo-brown"> <span class="templatemo-section-title">现代防治传染病</span> <span class="templatemo-section-title">&nbsp;</span></h2>
+          <h2 class="templatemo-brown"><span class="templatemo-section-title"> <span class="templatemo-gold"><strong>科学的利剑</strong></span></span> </h2>
+          <p class="margin-top-30 text-justify">19世纪后半期，细菌等病原性微生物的依次发现发展为细菌学说，也使得传染病的原因和传染机制得到了确认。对所有的生物来说，疾病和寄生物几乎无所不在。当寄生物从某个有机体身上成功地搜寻到食物时，对宿主而言就是一场恶性感染或疾病。对人类来说，病毒、细菌、真菌……种种微生物都可能成为传染病的引发者。</p>
+          <p class="margin-top-30 text-justify">伴随着近代西方医学的发展，通过杀灭病原性微生物进行治疗以及预防传染的预防医学也发展了起来。人类对传染病等疾病的认识与治疗方法产生了深刻的变化，在此过程中，通过杀灭病原性微生物中间宿主来破坏传染机制的预防医疗是传染病与人类关系史上重大的变革。</p>
+          <p class="margin-top-30 text-justify">等感染了传染病再治疗似乎显得太过被动，科学家反向思考：既然多数传染病在痊愈后不会复发，可不可以让人类体内先行产生抗体？疫苗就此产生。</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6">
+        <div class="templatemo-flex-center templatemo-black-bg">
+          <div class="templatemo-flex-center templatemo-brown-rectangle-bg">
+            <div class="jcarousel-wrapper templatemo-products">
+              <div class="jcarousel">
+                <ul>
+                  <li>
+                    <div class="templatemo-product-container text-center">
+                      <h3 class="templatemo-gold">路易斯·巴斯德</h3>
+						<h4 class="templatemo-brown">医学微生物学奠基人</h4>
+                      <img src="images/baside.png" alt="Product 1" class="templatemo-product-img"> </div>
+                  </li>
+                  <li>
+                    <div class="templatemo-product-container text-center">
+                      <h3 class="templatemo-gold">爱德华·琴纳</h3>
+						<h4 class="templatemo-brown">研究及推广牛痘疫苗防止天花</h4>
+                      <img src="images/qinna.png" alt="Product 2" class="templatemo-product-img"> </div>
+                  </li>
+                  <li>
+                    <div class="templatemo-product-container text-center">
+                      <h3 class="templatemo-gold">约翰·斯诺</h3>
+						<h4 class="templatemo-brown">公共卫生医学的开拓者</h4>
+                      <img src="images/sinuo.png" alt="Product 3" class="templatemo-product-img"> </div>
+                  </li>
+                </ul>
+              </div>
+              <a href="#" class="jcarousel-control-prev inactive">&lsaquo;</a> <a href="#" class="jcarousel-control-next">&rsaquo;</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	  <div class="col-lg-6 col-md-6">
+        <div class="templatemo-content-box text-right">
+          <p class="margin-top-30 text-justify">与大多数药物的受益仅限于服用该药物的个人不同，预防性疫苗具有产生深远影响的潜力，包括卫生服务利用，整体健康和福祉，认知能力发展以及最终的经济生产力。 </p>
+          <p class="margin-top-30 text-justify">从种牛痘来抑制天花及通过下水系统来抑制霍乱等对急性传染病的控制，到通过链霉素等抗生素来控制结核等慢性传染病，再到对生活习惯病的控制。人类通过预防医学以及对环境的整治，成功达到了抑制各种传染病的目的。在改善营养条件的同时，人类平均寿命急速延长，人类也在20世纪经历了前所未有的爆发性人口增长。 </p>
+          <p class="margin-top-30 text-justify">由国家统一进行免疫规划已经成为当代传染病防治的重要组成部分。《中华人民共和国传染病防治法》规定了我国的免疫规划。目前，我国的国家免疫规划通过无偿接种11种疫苗，预防乙型肝炎、结核病、脊髓灰质炎、百日咳、白喉、破伤风、麻疹、流行性腮腺炎、风疹、流行性乙型脑炎、流行性脑脊髓膜炎、甲型肝炎等12种传染病。疫苗按照免疫程序，所有达到应接种月(年)龄的适龄儿童，均为接种对象。</p>
 
-</div>
-<div id="sidenav">
-<ul>
-<li><a href="#one" class="smooth">导语</a></li>
-<li><a href="#second" class="smooth">人类历史上的传染病</a></li>
-	<li><a href="#one" class="smooth">和传染病的对峙</a></li>
-	<li><a href="#one" class="smooth">科学防治</a></li>
-	<li><a href="#one" class="smooth">现代科技</a></li>
-	<li><a href="#one" class="smooth">结束语</a></li>
-</ul>
-
-</div>
-<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
-<script type="text/javascript">
-	function changeBg(season){
-		$("#top").attr("class",season);
-	}
-    $(document).ready(function() {
-       $(".smooth").click(function(){
-       		var href = $(this).attr("href");
-       		var pos = $(href).offset().top;
-			$("html,body").animate({scrollTop: pos},1000);
-       		return false;
-   }); 
-    });
-</script>
+        </div>
+      </div>
+  </div>
+</section>
+<section id="contact" class="templatemo-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6">
+        <div class="templatemo-flex-center templatemo-black-bg">
+        <img src="images/heise.png" width="100%" height="auto" alt=""/> </div>
+      </div>
+      <div class="col-lg-6 col-md-6">
+        <div class="templatemo-content-box templatemo-second-box">
+          <h2 class="templatemo-brown"> <span class="templatemo-gold"><strong>结语</strong></span></h2>
+          <p class="margin-top-30 text-justify">1980年，世界卫生组织（WHO）发布了天花根绝的宣言，这是彻底种痘计划得到实施的光辉成果。人类曾经认为，通过医学的进步与公共卫生事业的发展，将来能够有可能彻底根绝传染病。然而，这种自信或许还是太早。在人类历史上多次出场的古老传染病似乎逐渐被找到了应对之法，但绝大多数没有完全离场；在现代的环境和社会结构下，一些新的传染病又站上了防疫之战的彼端。艾滋病、埃博拉、SARS、MERS、流感……进入21世纪，烈性传染病仍然可能在世界各地爆发。</p>
+          <p class="margin-top-30 text-justify">为了帮助各国兑现到2030年“结束流行病”的承诺，世界卫生大会通过了艾滋病、结核病和疟疾全球战略。2016年，世界首次通过了全球肝炎战略并确定了第一个全球肝炎目标。自2012年以来，全球一直采用世界卫生组织的路线图来指导防治累及逾十亿人的被忽视的热带病的努力。 这些战略得到一套以证据为基础的指导文件的支持，以帮助各国设计和实施其自身计划。 </p>
+          <p class="margin-top-30">2020年初，新型冠状肺炎爆发很快蔓延全球，到今天，新冠肺炎的感染者已超过268万。新冠病毒引发的肺炎疫情与每一个地球人息息相关。人类的防疫之战再次走到重要节点。有学者认为，新冠肺炎将改变社会格局，改变未来世界的走向。无论这种看法是否会被验证，我们可以从历史中总结：<strong color="fff">人类社会的发展史与传染病确实有不可分割的紧密联系。</strong></p>
+          <p class="margin-top-30">人类与传染病这对历史已久的老对手又一次在“战场”相逢。可以预想，这场“防疫战”在看到最终结局之前，还有很长的一段路需要走。 </p>
+		
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="container margin-top-30">
+  <div class="row">
+    <div class="col-lg-12">
+		<div class="wow fadeIn" data-wow-delay="0.4s">
+						<div class="btn-circle-scroll">
+							<a href="#home" class="btn-circle">
+								<i class="fa fa-angle-double-up animated"></i>
+							</a>
+						</div>
+					</div>
+      <p class="templatemo-copyright-container text-uppercase small templatemo-brown text-center"> <span class="templatemo-gold">参考文献 <br></span>
+		  <span class="templatemo-copyright-design">(美)威廉.H.麦克尼尔.瘟疫与人.北京：中国环境科学出版社.2010</span> <br>
+		  <span class="templatemo-copyright-design">Theobald Smith，Parasitism and Disease，P.44-65;Richard</span><br>
+		 <span class="templatemo-copyright-design">《中华人民共和国传染病防治法》</span> <br>
+		  <span class="templatemo-copyright-design"><a target="_blank" href="www.who.int/">www.who.int/</a> 世界卫生组织</span>
+		</p>
+	  
+		<p class="templatemo-copyright-container text-uppercase small templatemo-brown text-center"> <span class="templatemo-copyright-text">Copyright &copy; 2020 <br><a href="#" class="templatemo-gold">霍瑞玺 陶翕然</a></span> <a target="_blank" href="mailto:xiran0423@163.com">联系我们</a> <br><span class="templatemo-copyright-design">指导老师：郑志亮 顾洁 付晓光</span> <br><span class="templatemo-copyright-design">中国传媒大学电视学院</span></p>	
+    </div>
+  </div>
+</footer>
+<script src="js/jquery-1.11.1.min.js"></script> 
+<script src="js/jquery.jcarousel.min.js"></script> 
+<script src="js/templatemo_script.js"></script>
 </body>
 </html>
